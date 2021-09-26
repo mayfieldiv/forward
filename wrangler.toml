@@ -1,0 +1,9 @@
+name = "forward"
+type = "javascript"
+compatibility_date = "2021-09-26"
+
+[build]
+command = "yarn && yarn build"
+
+[build.upload]
+format = "service-worker"

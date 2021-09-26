@@ -1,0 +1,17 @@
+{
+  "name": "forward",
+  "version": "1.0.0",
+  "main": "out/app.js",
+  "private": true,
+  "repository": "https://github.com/mayfieldiv/forward.git",
+  "scripts": {
+    "build": "esbuild src/index.js --bundle --minify --sourcemap --outfile=out/app.js"
+  },
+  "dependencies": {
+    "@cloudflare/worker-sentry": "^1.0.0"
+  },
+  "devDependencies": {
+    "@cloudflare/wrangler": "^1.19.3",
+    "esbuild": "^0.13.2"
+  }
+}
