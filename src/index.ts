@@ -19,7 +19,7 @@ async function handleRequest(request: Request): Promise<Response> {
   const body = Object.fromEntries(formData.entries());
   console.log("fields: " + Object.keys(body).join(", "));
   Object.entries(body).forEach(([key, value]) =>
-    console.log(`${key}: ${value}`)
+    console.log(`${key}: ${value.slice(0, 300)}`)
   );
 
   await forwardEmail(SENDGRID_API_KEY, FORWARD_TO_EMAIL_ADDRESS, body);
