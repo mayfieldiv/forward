@@ -2,12 +2,10 @@
 # yarn lockfile v1
 
 
-"@cloudflare/worker-sentry@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@cloudflare/worker-sentry/-/worker-sentry-1.0.0.tgz#0b0e8fd74ade9fd4c3cd5c77d32864dc1617a469"
-  integrity sha512-ePKo8tQL1hT214EyqluWpWNKF6eVlNcOFaA1IbTAcBYKxH0wxSCCzHOrHapGLb66Y4T+cB9wojBANCHyvMBxkg==
-  dependencies:
-    toucan-js "^2.2.0"
+"@cloudflare/workers-types@^2.2.2":
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/@cloudflare/workers-types/-/workers-types-2.2.2.tgz#1bced16bba801d7af987da835467545bb5cc7ac6"
+  integrity sha512-kaMn2rueJ0PL1TYVGknTCh0X0x0d9G+FNXAFep7/4uqecEZoQb/63o6rOmMuiqI09zLuHV6xhKRXinokV/MY9A==
 
 "@cloudflare/wrangler@^1.19.3":
   version "1.19.3"
@@ -348,7 +346,7 @@ tar@^6.1.10:
     mkdirp "^1.0.3"
     yallist "^4.0.0"
 
-toucan-js@^2.2.0:
+toucan-js@^2.5.0:
   version "2.5.0"
   resolved "https://registry.yarnpkg.com/toucan-js/-/toucan-js-2.5.0.tgz#049cd46237e34720c20607b0aabb564ea4cc1a51"
   integrity sha512-kGC4aBI5ou0L6jIe+CqYxWjobknU7CTsgQOfHMFadSm8KLh/8f2oKgtqcmRB5Iysvai2/4vJDrFXqX/3K4iAjQ==

@@ -5,12 +5,13 @@
   "private": true,
   "repository": "https://github.com/mayfieldiv/forward.git",
   "scripts": {
-    "build": "esbuild src/index.js --bundle --minify --sourcemap --outfile=out/app.js"
+    "build": "esbuild src/index.ts --bundle --minify --sourcemap --outfile=out/app.js"
   },
   "dependencies": {
-    "@cloudflare/worker-sentry": "^1.0.0"
+    "toucan-js": "^2.5.0"
   },
   "devDependencies": {
+    "@cloudflare/workers-types": "^2.2.2",
     "@cloudflare/wrangler": "^1.19.3",
     "esbuild": "^0.13.2"
   }

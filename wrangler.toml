@@ -1,9 +1,19 @@
 name = "forward"
 type = "javascript"
 compatibility_date = "2021-09-26"
+workers_dev = true
 
 [build]
 command = "yarn && yarn build"
 
 [build.upload]
 format = "service-worker"
+
+[vars]
+EMAIL_DOMAIN = "mayfieldiv.com"
+
+# [secrets]
+# FORWARD_TO_EMAIL_ADDRESS
+# SENDGRID_API_KEY
+# SENTRY_DSN
+# WEBHOOK_SECRET
